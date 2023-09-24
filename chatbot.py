@@ -5,7 +5,7 @@ $ pip install google-generativeai
 
 import google.generativeai as palm
 
-palm.configure(api_key="AIzaSyAexWa-TmaMq7tL2LLqJyTyaMFiig7-K10")
+palm.configure(api_key="YOUR API KEY")
 
 defaults = {
   'model': 'models/chat-bison-001',
